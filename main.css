@@ -66,6 +66,3 @@ img{
 footer{text-align:center;
   margin-top:10px;}
 
-@media (min-width: 800px){
-  .grid-container{height:1650px;}
-}
