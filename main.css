@@ -1,0 +1,71 @@
+body{
+  background-color: lightgrey;
+  font-family: 'Nunito', sans-serif;
+  padding-top: 15px;}
+
+.grid-container{
+  background-color:white;
+  display:block;
+  margin: auto;/*to center*/
+  padding:5px 20px ;
+  width:85%;
+  border-radius: 5px;}
+
+p{font-weight:bold;
+  color:grey;
+  margin-bottom:30px;}
+
+.filter-select{
+  display:flex;
+  padding:0;}/*to remove left padding on list*/
+
+.btn{
+  background-color:lightgrey;
+  flex-grow:1;
+  margin:5px;
+  padding:10px;
+  border-radius:5px;
+  text-align:center;
+  font-weight:500;}
+
+li {list-style:none;}
+
+.selected{
+  background-color:#b3b3b3;
+}/*clicked button class*/
+
+.imageBox{
+  display: flex;
+  flex-wrap: wrap;
+  padding:0;
+}
+
+#photos{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.image{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:lightgrey;
+  width:260px;
+  height:260px;
+  border-radius:15px;
+  border:solid white 10px;
+  margin:auto;
+}/*use math for border boxes*/
+
+img{
+  flex-grow:1;
+  display:block;
+}
+
+footer{text-align:center;
+  margin-top:10px;}
+
+@media (min-width: 800px){
+  .grid-container{height:1650px;}
+}
