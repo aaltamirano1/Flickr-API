@@ -11,6 +11,8 @@ body{
   width:85%;
   border-radius: 5px;}
 
+.grid-100{width:100%;}
+
 p{font-weight:bold;
   color:grey;
   margin-bottom:30px;}
