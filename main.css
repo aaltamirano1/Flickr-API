@@ -58,13 +58,18 @@ li {list-style:none;}
   border-radius:15px;
   border:solid white 10px;
   margin:auto;
-}/*use math for border boxes*/
+}
 
 img{
   flex-grow:1;
   display:block;
 }
 
-footer{text-align:center;
+footer{
+  text-align:center;
+  color:grey;
   margin-top:10px;}
 
+a {
+  text-decoration:none;
+  color:grey;}
